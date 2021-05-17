@@ -1,0 +1,97 @@
+
+body {
+	color: rgb(0, 0, 0);
+	font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 11px;
+	text-align: justify;
+}
+
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+#container {
+	max-width: 1300px;
+	padding: 10px;
+}
+
+header {
+	width: 100%;
+	border: thick solid rgb(0, 0, 0);
+	box-sizing: border-box;
+	background: rgb(153, 255, 255);
+}
+
+#content {
+
+	width: calc(60% - 20px);
+	float: left;
+	border: thick solid rgb(0, 0, 0);
+	padding: 10px;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+asside {
+	width: 20px;
+	padding: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	box-sizing: border-box;
+	margin-top: 30px;
+
+}
+
+
+aside#left {
+	float: left;
+
+
+}
+
+aside#right {
+	float: right;
+
+}
+
+ul#nav {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+ul#nav li a {
+
+	font-size: 16px;
+	width: 100%;
+	line-height: 25px;
+	margin-bottom: 5px;
+	float: left;
+
+}
+
+ul#nav li a:hover {
+	background-color: red;
+
+}
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align: right;
+	padding: 10px;
+	background-color: blueviolet;
+	color: white;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
