@@ -26,5 +26,14 @@ __task void job2 (void);
 __task void job3 (void);
 ```
 
-## Second
+## ARM
+```
+RCC->AHB1ENR |= ((1UL << ..));
+    0- btn A
+    3- led skolni D aktivace: |= (1<<) deaktivace: &=˜(1<<)
+    4- led arm E aktivace     &=˜(1<<) deaktivace: |= (1<<)
+for(int i=12;i<16;i++) GPIOE->MODER  |= (1UL<< i*2); -aktivace led
+ ```
+ 
+ ## Second
 https://github.com/Firestone82/m
