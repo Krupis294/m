@@ -1,0 +1,15 @@
+.\objects\mates.o: RTE\Device\STM32F407VGTx\mates.c
+.\objects\mates.o: C:\Users\makis_000\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\objects\mates.o: C:\Users\makis_000\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h
+.\objects\mates.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\mates.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mates.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\mates.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\mates.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\mates.o: C:\Users\makis_000\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\mates.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\mates.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mates.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mates.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\mates.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mates.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
