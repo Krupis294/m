@@ -1,0 +1,7 @@
+4|David|Zimniok|100|100|100|300|
+23|Maxim|Sommer|75|6|12|93|
+10|Minim|Winter|50|64|98|212|
+99|Matej|Liska|12|12|12|36|
+27|Petr|Samsula|80|45|35|160|
+21|Patrik|Kalab|0|0|0|0|
+44|Tomas|Lachman|1|6|9|16|
