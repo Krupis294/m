@@ -11,7 +11,8 @@ LCD:
   LCD_cltrlWR(0xC0) -druhý řádek kurzor
   
 RTX:
-  os_tsk_create(); = Vytvoří task
+
+  t_job1 = os_tsk_create (job1, 1);= Vytvoří task
   
   os_evt_set(0x0002,t_job2); = Nastaví vlajky
  
