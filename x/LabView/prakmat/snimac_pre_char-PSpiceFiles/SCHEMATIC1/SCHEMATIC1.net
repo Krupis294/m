@@ -1,0 +1,9 @@
+* source SNIMAC_PRE_CHAR
+V_V1         VIN 0  AC 20mV
++SIN 0V 5V 10k 0 0 0
+C_C2         N00247 VOUT  2n  
+C_C1         N03477 N00247  1u  
+E_U1         VOUT 0 VALUE {LIMIT(V(0,N00247)*1E6,-15V,+15V)} _U1 0 N00247 1G
+
+R_R2         VIN N03477  4k7  
+R_R4         N00247 VOUT  22k  

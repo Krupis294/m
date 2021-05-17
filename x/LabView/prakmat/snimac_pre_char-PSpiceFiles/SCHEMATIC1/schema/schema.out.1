@@ -1,0 +1,42 @@
+
+**** 10/23/19 10:12:13 ************** PSpice Lite (Jan 2005) *****************
+
+ ** Profile: "SCHEMATIC1-schema"  [ C:\4.A\samsula\TEM_sche\prakmat\snimac_pre_char-PSpiceFiles\SCHEMATIC1\schema.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "schema.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_10.5_Demo\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 20 20 4000
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SNIMAC_PRE_CHAR
+V_V1         N01065 0  AC 20mV
++SIN 0V 5V 10k 0 0 0
+E_U1         N03525 0 VALUE {LIMIT(V(0,N00247)*1E6,-15V,+15V)} _U1 0 N00247 1G
+
+
+**** RESUMING schema.cir ****
+.END
+
+ERROR -- Node N00247 is undefined
+ERROR -- Node N00247 is floating

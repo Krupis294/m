@@ -1,0 +1,10 @@
+Mama|Mother|1
+Otec|Father|1
+Sestra|Sister|1
+Bratr|Brother|1
+Zidle|Chair|2
+Stul|Table|2
+Pes|Dog|3
+Kocka|Cat|3
+Kun|Horse|3
+Voda|Watter|6
