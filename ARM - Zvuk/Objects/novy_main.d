@@ -1,0 +1,13 @@
+.\objects\novy_main.o: RTE\Device\STM32F407VGTx\novy_main.c
+.\objects\novy_main.o: C:\Users\makis_000\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\objects\novy_main.o: C:\Users\makis_000\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\CMSIS\Include\core_cm4_simd.h
+.\objects\novy_main.o: C:\Users\makis_000\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\novy_main.o: .\RTE\_Target_1\RTE_Components.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\RV31\Inc\RTL.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\novy_main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
