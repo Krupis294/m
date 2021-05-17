@@ -1,0 +1,19 @@
+KÓDOVÝ ZÁMEK
+
+1. Zobrazte na LCD displeji adresu školy, své jméno a příjmení jako světelné noviny,
+směr posuvu doleva. Nápis zobrazte na prvním řádku displeje.
+2. Vstupní kód snímejte z klávesnice a kód zobrazte na LCD displeji.
+Vstupní kombinaci na 1s zobrazte na LCD displeji a pak nahraďte
+znakem „*“.
+
+3. Při stisku správné kombinace kláves (2 6 6 0 ) zobrazte na LCD
+displeji text vstupte. Byla-li stlačena jiná kombinace, zobrazte
+” pristup zamitnut “.
+
+4. Při trojnásobně špatné volbě zobrazte na LCD displeji „alarm“ a
+zablokujte další zadávání čísel.
+
+5. Upravte program tak, aby kód po otevření zámku byl možno měnit.
+Po zadání servisního kódu, umožněte přepsat otevírací kód svým
+kódem. Při neznalosti servisního kódu není možno změnit otevírací
+kód. Servisní kód (3 2 1) .
