@@ -9,6 +9,7 @@ LCD:
   LCD_cltrlWR(0x80) -první řádek kurzor
   
   LCD_cltrlWR(0xC0) -druhý řádek kurzor
+  
 RTX:
   os_tsk_create(); = Vytvoří task
   
