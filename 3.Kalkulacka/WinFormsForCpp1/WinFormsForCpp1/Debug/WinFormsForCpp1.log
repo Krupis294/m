@@ -1,0 +1,7 @@
+﻿  WinFormsForCpp1.cpp
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Form1.h(913,7): warning C4101: p: neodkazovaná lokální proměnná
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Form1.h(966,7): warning C4101: i: neodkazovaná lokální proměnná
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Form1.h(1033,16): warning C4553: ==: Výsledek výrazu se nepoužívá; nebylo vaším záměrem =?
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Form1.h(1036,17): warning C4553: ==: Výsledek výrazu se nepoužívá; nebylo vaším záměrem =?
+  AssemblyInfo.obj : Našel se modul MSIL. Přírůstkové propojování je pro MSIL vypnuté. Provádí se úplné propojení.
+  WinFormsForCpp1.vcxproj -> \\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\Debug\WinFormsForCpp1.exe

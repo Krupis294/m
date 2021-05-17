@@ -1,0 +1,6 @@
+C:\Users\Kuba\Desktop\20.11.11 kal\WinFormsForCpp1\WinFormsForCpp1\Debug\WinFormsForCpp1.vcxprojAssemblyReference.cache
+C:\Users\Kuba\Desktop\20.11.11 kal\WinFormsForCpp1\WinFormsForCpp1\Debug\WinFormsForCpp1.Form1.resources
+C:\Users\Kuba\Desktop\20.11.11 kal\WinFormsForCpp1\WinFormsForCpp1\Debug\WinFormsForCpp1.vcxproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Debug\WinFormsForCpp1.vcxprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Debug\WinFormsForCpp1.Form1.resources
+\\vmware-host\Shared Folders\Desktop\Skola\PRG\kalkulacka\WinFormsForCpp1\WinFormsForCpp1\Debug\WinFormsForCpp1.vcxproj.GenerateResource.cache
