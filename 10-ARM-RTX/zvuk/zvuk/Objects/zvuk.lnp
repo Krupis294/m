@@ -1,0 +1,10 @@
+--cpu Cortex-M4.fp
+".\RTE\Device\STM32F407VGTx\libPDMFilter_Keil.lib"
+".\objects\main.o"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_stm32f407xx_1.o"
+".\objects\system_stm32f4xx_1.o"
+f:\Keil_v5\ARM\RV31\Lib\RTX_CM4.LIB
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\zvuk.map" -o .\Objects\zvuk.axf
