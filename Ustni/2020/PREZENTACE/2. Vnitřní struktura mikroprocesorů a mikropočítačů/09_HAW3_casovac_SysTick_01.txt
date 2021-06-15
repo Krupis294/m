@@ -1,0 +1,51 @@
+/*
+	Blikani vestavene LED s vyuzitim SysTick.
+	
+	Blikani na pozadi - automaticke blikani.
+	
+	After a system reset, the HSI oscillator is selected as the system clock.
+	SYSCLK se bere z HSI a defaultne ma 16 MHz.
+	
+	SysTick_Config(.........)	-> podteceni kazdou ...
+	SysTick_Config(.........)	-> podteceni kazdou ...
+	SysTick_Config(.........)	-> podteceni kazdou ...
+	
+	SysTick_Config(.........)	-> podteceni kazdou ...
+	SysTick_Config(.........)	-> podteceni kazdou ...
+	
+	Pro vice nez ... je nutny drobny zasah do ...........................
+*/
+#include "stm32f4xx.h"                  // Device header
+
+void SysTick_Handler(void);
+
+
+
+int main(void)
+{
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIODEN;
+	
+	GPIOD->MODER |= GPIO_MODER_MODER12_0;
+	
+	SysTick_Config(.........);
+  
+	while(1)
+	{
+		// Prostor pro vlastni kod...
+	}
+	
+	return 0;
+}
+
+void SysTick_Handler(void)
+{
+
+
+		if (GPIOD->ODR & GPIO_ODR_ODR_12)
+			GPIOD->ODR &= ~(GPIO_ODR_ODR_12);
+		else
+			GPIOD->ODR |= GPIO_ODR_ODR_12;
+		
+
+
+}

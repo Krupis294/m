@@ -1,0 +1,56 @@
+/*
+	Blikani vestavene LED s vyuzitim SysTick.
+	
+	Blikani s vyuzitim funkce "cekej()"
+	
+	After a system reset, the HSI oscillator is selected as the system clock.
+	SYSCLK se bere z HSI a defaultne ma 16 MHz.
+	
+	SysTick_Config(.........)	, cekej(...)	-> podteceni kazdou ...
+	SysTick_Config(.........)	, cekej(...)	-> podteceni kazdou ...
+	SysTick_Config(.........)	, cekej(...)	-> podteceni kazdou ...
+	
+	SysTick_Config(.........)	, cekej(...)	-> podteceni kazdou ...
+	SysTick_Config(.........)	, cekej(...)	-> podteceni kazdou ...
+*/
+
+#include "stm32f4xx.h"                  // Device header
+
+volatile uint32_t Ticks;
+
+
+void SysTick_Handler(void);
+void cekej(uint32_t);
+
+int main()
+{
+	RCC->AHB1ENR |= (1UL << 3);
+
+	GPIOD->MODER |= (1UL << 24);
+
+	SysTick_Config(16000);
+	
+	while(1)
+	{
+		GPIOD->ODR |= (1UL << 12);	
+		
+		cekej(1);
+		
+		GPIOD->ODR &= ~(1UL << 12);
+		
+		cekej(1);
+	}
+	
+	return 0;
+}
+
+
+void SysTick_Handler(void) { Ticks++; }
+
+
+void cekej(uint32_t x)
+{
+	uint32_t start = Ticks;
+	
+	while((Ticks - start) < x);
+}

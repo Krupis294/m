@@ -1,0 +1,58 @@
+/*
+	Blikani LED s vyuzitim casovace TIM6 nebo TIM7.
+	
+	Defaultni frekvence je 16 MHz.
+	
+	TIM6 a TIM7 jsou 16-bit.
+*/
+
+#include "stm32f4xx.h"	// Device header
+
+volatile uint8_t x;			// Pro debug mod
+
+void cekej20ms(uint8_t);
+
+int main()
+{
+	RCC->AHB1ENR |= (1UL << 3);
+	
+	RCC->APB1ENR |= RCC_APB1ENR_TIM6EN;
+	
+	GPIOD->MODER |= (1UL << 24);
+	
+	TIM6->PSC = 1600;			// Nastaveni prescaleru -> f =  10kHz (pretece za ..,.....s)
+	//TIM6->PSC = 160;		// Nastaveni prescaleru -> f = ...kHz (pretece za ..,.....s)
+	//TIM6->PSC = 16;			// Nastaveni prescaleru -> f = ...MHz (pretece za ..,.....s)
+	
+	while(1)
+	{
+		GPIOD->ODR |= GPIO_ODR_ODR_12;
+		x = 1;
+		
+		cekej20ms(25);	// 0,5s
+		
+		GPIOD->ODR &= ~(1UL << 12);
+		x = 0;
+		
+		cekej20ms(25);
+	}
+	
+	return 0;
+}
+
+void cekej20ms(uint8_t x)
+{
+	TIM6->CR1 |= 1UL;
+	
+	while(x > 0)
+	{
+		TIM6->SR = 0;
+		TIM6->CNT = 0xFF37;			// Hodnota pro ...ms (f = 10kHz; ...ms pro 100kHz)
+		//TIM6->CNT = 0xB1DF;		// Hodnota pro ...ms (f = 1MHz)
+		
+		while(!(TIM6->SR & TIM_SR_UIF));	// Cekani na preteceni
+		x--;
+	}
+	
+	TIM6->CR1 &= ~1UL;
+}
