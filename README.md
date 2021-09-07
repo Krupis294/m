@@ -1,4 +1,4 @@
-Win server: https://www.uschovna.cz/zasilka/LK389H278UVXAH66-DD7/4K2VLP2IZ5
+Win server: https://www.uschovna.cz/zasilka/PPE5B2WY3YN6398J-62F/FDG8VU4YMA
 
 ## LCD
 ``` 
