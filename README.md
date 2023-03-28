@@ -1,5 +1,3 @@
-Win server: https://www.uschovna.cz/zasilka/PPE5B2WY3YN6398J-62F/FDG8VU4YMA
-
 ## LCD
 ``` 
 LCD_cltrlWR(0x1C) - doleva rotace
